@@ -1,0 +1,81 @@
+*,
+*:before,
+*:after {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+
+}
+
+html {
+    height: 100%;
+}
+
+body { /* Fundo da página*/
+    background: linear-gradient(#5590c4, black);
+}
+
+
+.container { /* Quadrado Branco */
+    position: absolute;
+    width: 60%;
+    min-height: 620px;
+    transform: translate(-50%, -50%);
+    top: 50%;
+    left: 50%;
+
+    background-color: #fff;
+    background-image: url("https://i.imgur.com/GmVfFYC.png");
+    background-size: 32vh;
+    background-position: center right;
+    background-repeat: no-repeat;
+
+    padding: 50px 10px;
+    border-radius: 9px;
+    display: grid;
+    justify-items: center;
+    font-family: 'Poppins', sans-serif;
+    border-image: round;
+
+}
+
+h3 {
+    font-size: 26px;
+    font-weight: 600;
+}
+
+input[type="number"] { /* Caixa de texto */
+
+    width: 390px;
+    font-weight: 69px;
+    color: #5a2969;
+    padding: 18px 0;
+    text-align: center;
+    position: center;
+    margin-top: 30px;
+    border-radius: 20px;
+    border: 2px solid #202020;
+    font-size: 25px;
+}
+
+button { /* Botão corno safado */
+
+    width: 260px;
+    padding: 15px 0;
+    border-radius: 5px;
+    background-color: #5a2969;
+    color: #fff;
+    border: black;
+    border-radius: 20px;
+    font-size: 18px;
+    font-weight: 600;
+    margin-bottom: 30px;
+    text-align: center;   
+
+    
+
+}
+
+p { /* Testículo no rodapé */
+    font-weight: 400;
+}
